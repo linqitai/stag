@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import StagDetail from '../pages/stagdetail'
+import StagDetail from './pages/Stagedetail/stagdetail'
 
 Vue.use(Router)
 
