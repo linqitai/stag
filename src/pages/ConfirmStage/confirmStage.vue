@@ -1,15 +1,18 @@
 <template>
   <div class="confirm-stage">
-    <Header>确认分期信息</Header>
+    <m-header>确认分期信息</m-header>
   </div>
 </template>
 <script>
-  import Header from 'components/Header.vue';
+  import mHeader from 'components/Header'
   export default {
     data() {
       return {
 
       }
+    },
+    components: {
+      mHeader
     }
   }
 

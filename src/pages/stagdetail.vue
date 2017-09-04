@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import mHead from '../components/Head'
+import mHead from 'components/Header'
 export default {
   data() {
     return {
