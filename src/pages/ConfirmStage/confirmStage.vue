@@ -1,6 +1,6 @@
 <template>
   <div class="confirm-stage">
-    <m-header>确认分期信息</m-header>
+    <m-header>确认分期信息1</m-header>
   </div>
 </template>
 <script>
