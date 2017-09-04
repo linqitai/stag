@@ -50,4 +50,8 @@ li {
 a {
   color: #42b983;
 }
+h2{
+  color: red;
+  font-family: 'PingFang-SC-Regular';
+}
 </style>
