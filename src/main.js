@@ -4,8 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import fastclick from 'fastclick'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
 import './common/scss/index.scss'
-
+Vue.use(MintUI)
 Vue.config.productionTip = false
 fastclick.attach(document.body)
 /* eslint-disable no-new */

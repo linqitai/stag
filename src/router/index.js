@@ -11,6 +11,11 @@ const ConfirmStage = (resolve) => {
     resolve(module)
   })
 }
+const Financing = (resolve) => {
+  import('pages/Financing/financing').then((module) => {
+    resolve(module)
+  })
+}
 
 Vue.use(Router)
 
@@ -25,6 +30,11 @@ export default new Router({
       path: '/confirmStage',
       name: 'ConfirmStage',
       component: ConfirmStage
+    },
+    {
+      path: '/financing',
+      name: 'Financing',
+      component: Financing
     }
   ]
 })
