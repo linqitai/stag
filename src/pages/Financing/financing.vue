@@ -15,13 +15,35 @@
       </div>
       <div class="content">
         <div class="store" v-show="isStore">
-          我的店
+          <div class="securityWrapper">
+            <div class="title">安保分期</div>
+            <div class="security">
+              <div class="item">
+                <div class="description">在借笔数</div>
+                <div class="amount">0笔</div>
+              </div>
+              <div class="item">
+                <div class="description">本月15号还款</div>
+                <div class="amount">0.00</div>
+              </div>
+              <div class="item">
+                <div class="description">剩余待还</div>
+                <div class="amount">0.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="title">臻商家</div>
+          <img src="../../common/images/banner_zsd.png" alt="">
+          <div class="title">信用卡</div>
+          <img src="../../common/images/banner_xyk.png" alt="">
         </div>
         <div class="home" v-show="isHome">
-          我的家
+          <div class="title">信用卡</div>
+          <img src="../../common/images/banner_xyk.png" alt="">
         </div>
         <div class="car" v-show="isCar">
-          我的车
+          <div class="title">车抵贷</div>
+          <img src="../../common/images/banner_xyk.png" alt="">
         </div>
       </div>
     </div>
